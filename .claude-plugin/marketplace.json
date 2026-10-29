@@ -1,0 +1,5 @@
+{
+  "name": "sidh-mod",
+  "owner": { "name": "mrds91" },
+  "plugins": [{ "name": "sidh-mod", "source": "./" }]
+}

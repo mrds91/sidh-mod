@@ -1,0 +1,20 @@
+{
+  "name": "sidh-mod",
+  "version": "0.2.0",
+  "description": "Above the prompt: an AI-news radar on the left, and an animated team reacting to the job you hand Claude on the right",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "useCase": {
+      "type": "string",
+      "title": "Your use case",
+      "description": "What you build, so each AI-news summary says what the story means for you",
+      "default": "building AI agents and agentic applications on any platform, and the developer tools around them"
+    },
+    "news": {
+      "type": "boolean",
+      "title": "rAIdar",
+      "description": "Show recent AI launches on the left of the band: up to 25 fetched once a day, the next one at each prompt",
+      "default": true
+    }
+  }
+}
